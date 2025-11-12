@@ -3,7 +3,13 @@ layout: home-infographic
 title: Home
 ---
 
+
+
+
+
+
 {% include feature/jumbotron.html objectid="collier-hist-009" %}
+
 
 ## Between the Storms and Sunshine: The Ever-Evolving Story of Southwest Florida
 
