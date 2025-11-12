@@ -1,64 +1,64 @@
-/* Google Fonts */
+/* ====== Fonts ====== */
 @import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;600&family=Merriweather:wght@700&display=swap');
+body { font-family: "Lora", serif; }
+h1, h2, h3 { font-family: "Merriweather", serif; }
 
-/* Font setup */
-body {
-  font-family: "Lora", serif;
+/* ====== Palette (coastal archival) ====== */
+:root{
+  --swf-blue:#1f4e63;   /* stormy gulf blue */
+  --sand:#b1a88d;       /* sand */
+  --coral:#c45b3f;      /* accent coral */
+  --paper:#f9f8f6;      /* archival paper */
+  --ink:#1c1c1c;        /* body text */
 }
 
-h1, h2, h3 {
-  font-family: "Merriweather", serif;
+/* ====== Base ====== */
+body{
+  background: var(--paper);
+  color: var(--ink);
+  line-height: 1.6;
 }
-/* === Hurricane Donna / Naples theme starter === */
+a{ color: var(--swf-blue); }
+a:hover, a:focus{ color:#123646; text-decoration: underline; }
 
-/* Body + basic text */
-body {
-  background-color: #f9f8f6;   /* archival paper */
-  color: #1c1c1c;
-  font-family: "Georgia", "Times New Roman", serif;
-}
+h1,h2,h3{ color: var(--swf-blue); letter-spacing:.2px; }
 
-/* Links */
-a { color: #1f4e63; }                    /* storm blue */
-a:hover, a:focus { color: #154050; }
+/* ====== Navbar ====== */
+.navbar, .navbar-dark.bg-dark{
+  background-color: var(--swf-blue) !important;
+  border-bottom: 2px solid rgba(0,0,0,.05);
+}
+.navbar .nav-link, .navbar .navbar-brand{
+  color:#fff !important;
+}
+.navbar .nav-link:hover{ color:#e6f0f4 !important; }
 
-/* Headings */
-h1, h2, h3 {
-  color: #1f4e63;
-  letter-spacing: 0.2px;
-}
+/* ====== Buttons ====== */
+.btn-primary{ background: var(--swf-blue); border-color: var(--swf-blue); }
+.btn-success{ background: var(--coral);    border-color: var(--coral); }
+.btn-outline-primary{ color: var(--swf-blue); border-color: var(--swf-blue); }
+.btn-outline-primary:hover{ background: var(--swf-blue); color:#fff; }
 
-/* Navbar */
-.navbar, .navbar-inverse {
-  background-color: #1f4e63;
-  border-color: #1f4e63;
-}
-.navbar a, .navbar .navbar-brand { color: #ffffff !important; }
+/* ====== Cards / Panels / Captions ====== */
+.card, .panel, .cb-card{ box-shadow: 0 2px 12px rgba(0,0,0,.06); border-radius: .5rem; }
+.figure .caption, figcaption{ color:#555; font-size:.95rem; }
 
-/* Buttons */
-.btn-primary {
-  background-color: #1f4e63;
-  border-color: #1f4e63;
-}
-.btn-success {
-  background-color: #c45b3f;   /* brick/coral accent */
-  border-color: #c45b3f;
-}
+/* ====== Footer ====== */
+footer{ background:#f2f1ee; }
 
-/* Cards (optional soft shadow) */
-.card, .panel {
-  box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+/* ====== Homepage hero (works with your collection-banner.html) ====== */
+#home-banner{ min-height: 380px; }
+#home-title-box{
+  background: rgba(0,0,0,.55);
+  color:#fff; 
+  padding: 2.25em 1.5em;
+  text-align:center;
 }
+/* fix spacing between title and tagline on hero */
+#home-title-box .display-5.m-0{ margin-bottom:.75em !important; }
+#home-title-box p.mb-0{ margin-top:.25em !important; margin-bottom:0 !important; }
 
-/* Jumbotron readability over photos */
-.jumbotron {
-  background-color: rgba(0,0,0,0.35);   /* subtle dark overlay */
-  background-blend-mode: multiply;
-}
-.jumbotron h1, .jumbotron p { color: #ffffff; }
-
-/* Figure captions a touch softer */
-.figure .caption, figcaption {
-  color: #444;
-  font-size: 0.95em;
-}
+/* ====== Optional dividers and tighter sections ====== */
+.container .home-divider{ border-top:1px solid rgba(0,0,0,.08); margin:1.5rem 0; }
+.section-tight h2{ margin-top:1rem; }
+.section-tight p{ margin-bottom:.75rem; }
