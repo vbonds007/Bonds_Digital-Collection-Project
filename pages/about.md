@@ -25,7 +25,7 @@ Each image and document adds to the story of how Naples handled disaster and cha
 
 ## Credits  
 
-This digital exhibition was created by **Victoria Bonds** for the *Digital Exhibit Project* in the Department of History at **Florida Gulf Coast University**.  
+This digital exhibition was created by **Victoria Bonds**.  
 
 All materials come from the **Collier County Museums Collection**, which includes digitized photos, printed reports, and publications documenting life in Naples and nearby areas during and after Hurricane Donna in 1960.  
 
