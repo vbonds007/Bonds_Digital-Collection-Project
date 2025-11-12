@@ -23,6 +23,8 @@ source-code: https://github.com/CollectionBuilder/collectionbuilder-gh
 title: "Between the Storms and Sunshine: The Ever-Evolving Story of Southwest Florida"
 # tagline, a short phrase that will appear throughout the site in the top banner
 tagline: "Preserving the stories that weathered every storm." 
+theme_color: "#1f4e63"
+accent_color: "#c45b3f"
 # description appears in meta tags and other locations
 # this description might appear in search result lists, keep around 160 characters max
 description: "Preserving the resilience, growth, and everyday stories that shaped life in Collier County and Southwest Florida between storms and sunshine."
