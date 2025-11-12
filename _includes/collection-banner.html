@@ -1,7 +1,7 @@
 {% if page.layout == "home-infographic" %}
 <style>
   #home-banner {
-    /* hero image above the nav */
+    
     background-image: url('{{ "/objects/collier-hist-009.jpg" | relative_url }}');
     background-size: cover;
     background-repeat: no-repeat;
@@ -14,9 +14,13 @@
   #home-title-box {
     background: rgba(0,0,0,.55);
     color: #fff;
-    padding: 2em;
+    padding: 2.5em 2em;
     text-align: center;
   }
+
+#home-title-box h1 {
+  margin-bottom: 0.5em; /* space between title and tagline */
+}
   .jumbotron .badge,
   .jumbotron .feature-label { display: none !important; }
 </style>
