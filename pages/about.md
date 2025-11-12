@@ -27,11 +27,11 @@ credits: true
 <h2>Notable Examples</h2>
 
 <ul>
-  <li>{% include feature/pdf.html objectid="collier-hist-021" %} “Donna Was the Worst Storm We Ever Had” (1960–61): A firsthand story capturing the emotional and physical toll of Hurricane Donna and how ordinary residents documented their resilience.</li>
-  <li>{% include feature/pdf.html objectid="collier-hist-022" %} Collier County Hurricane Histories and Hurricane Donna Report” (1960–61): A local record showing how earlier hurricanes set the stage for Donna and how the community responded once it hit.</li>
-  <li>{% include feature/pdf.html objectid="collier-hist-019" %} “Florida Health Notes: Volume 54, No. 4” (1961): A state bulletin showing how public health and safety information evolved during the recovery period.</li>
-  <li>{% include feature/image.html objectid="collier-hist-016" %} Historic Collier County Beach House Photograph (ca. 1900–1910): An early look at Naples’ coastal architecture before later storms reshaped the shoreline.</li>
-  <li>{% include feature/pdf.html objectid="collier-hist-024" %} “Cabbages: Commentary on Naples Political Affairs” (1990): A reflective editorial about how development and local identity continued to change long after recovery.</li>
+  <li>“Donna Was the Worst Storm We Ever Had” (1960–61): A firsthand story capturing the emotional and physical toll of Hurricane Donna and how ordinary residents documented their resilience. {% include feature/pdf.html objectid="collier-hist-021" %} </li>
+  <li>Collier County Hurricane Histories and Hurricane Donna Report” (1960–61): A local record showing how earlier hurricanes set the stage for Donna and how the community responded once it hit. {% include feature/pdf.html objectid="collier-hist-022" %}</li>
+  <li>“Florida Health Notes: Volume 54, No. 4” (1961): A state bulletin showing how public health and safety information evolved during the recovery period. {% include feature/pdf.html objectid="collier-hist-019" %}</li>
+  <li>Historic Collier County Beach House Photograph (ca. 1900–1910): An early look at Naples’ coastal architecture before later storms reshaped the shoreline. {% include feature/image.html objectid="collier-hist-016" %}</li>
+  <li>“Cabbages: Commentary on Naples Political Affairs” (1990): A reflective editorial about how development and local identity continued to change long after recovery.{% include feature/pdf.html objectid="collier-hist-024" %} </li>
 </ul>
 
 <p>These examples highlight the range of perspectives and materials that together tell this story of endurance and change.</p>
