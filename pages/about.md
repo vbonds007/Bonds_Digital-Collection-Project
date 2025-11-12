@@ -14,14 +14,23 @@ credits: true
 
 ## About the Collection
 
-This site is generated using [CollectionBuilder-GH](https://collectionbuilding.github.io/gh/), a project to create a free and simple digital collection using [GitHub Pages](https://pages.github.com/) from: 
+When Hurricane Donna tore through Southwest Florida in September 1960, it left Naples and Collier County almost unrecognizable. Winds stronger than 120 miles per hour destroyed homes, flooded neighborhoods, and knocked out power. Even with so much damage, the community came together and began to rebuild.  
 
-- a CSV of collection metadata
-- a folder of JPG images or PDF documents
+This collection brings together photos, reports, and local stories from the Collier County Museums that show how the region prepared for, survived, and recovered after the storm. The items capture both the physical destruction and the strength of the people who lived through it—from flooded streets and fallen buildings to reflections about what the storm revealed about Naples’ growth and vulnerability.  
 
-The template repository features four objects from the University of Idaho Library's [Digital Collections](https://www.lib.uidaho.edu/digital). 
+Each image and document adds to the story of how Naples handled disaster and change. Together, they preserve an important piece of local history and show how recovery is about people as much as it is about rebuilding.  
 
-For full details of creating your own collection site, visit [CollectionBuilder Documentation](https://collectionbuilder.github.io/cb-docs/)!
 
-<!-- IMPORTANT!!! DELETE this comment and the include below when you are finished editing this page for your collection. The include below introduces about page features. They will show up on your collection's about page until you delete it.  -->
-{% include cb/about_the_about.md %} 
+---
+
+## Credits  
+
+This digital exhibition was created by **Victoria Bonds** for the *Digital Exhibit Project* in the Department of History at **Florida Gulf Coast University**.  
+
+All materials come from the **Collier County Museums Collection**, which includes digitized photos, printed reports, and publications documenting life in Naples and nearby areas during and after Hurricane Donna in 1960.  
+
+Special thanks to **Collier County Museums** for making these materials available, and to **FGCU Archives and Digital History faculty** for helping with metadata, description, and digital curation.  
+
+Thank you to **Vic Jones, MA, MLIS**, *University Archivist and Professor*, who provided the source materials, taught archival description and metadata creation, and guided the *Archiving History (HIS 3080)* course. Thank you also to **Rachel Tait-Ripperdan, MLIS**, *History and Humanities Librarian*, who led the GitHub workshops and created helpful YouTube tutorials for this project.  
+
+
